@@ -1,0 +1,7 @@
+const {resolve} = require('path')
+
+module.exports = {
+    config:resolve(__dirname,'a1','config','database.js'),
+    'migrations-path':resolve(__dirname,'a1','database','migrations'),
+    'seeders-path':resolve(__dirname,'a1','database','seeds'),
+};
